@@ -1,0 +1,5 @@
+#!/bin/bash
+. "$(dirname "$0")/_/husky.sh"
+
+echo "Running lint-staged.."
+echo && npx lint-staged -q
